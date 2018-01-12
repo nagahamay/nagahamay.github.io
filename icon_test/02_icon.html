@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+<title>02_icon</title>
+<link rel="icon" sizes="192x192" href="icon.png">
+<style>
+h1{
+	position: relative;
+	padding: 0.25em 1em;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+}
+h1:before, h1:after{
+	content: '';
+	position: absolute;
+	top: -7px;
+	width: 2px;
+	height: -webkit-calc(100% + 14px);
+	height: calc(100% + 14px);
+	background-color: black;
+}
+h1:before {left: 7px;}
+h1:after {right: 7px;}
+
+h2{
+	position: relative;
+	display: inline-block;
+	padding: 0 55px;
+}
+h2:before, h2:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 45px;
+	height: 2px;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+h2:before {left:0;}
+h2:after {right: 0;}
+pre {
+	padding: 2em;
+	background-color: #ffd;
+	line-height: 1.5em;
+}
+</style>
+<script>
+</script>
+</head>
+<body>
+<h1>02_favicon</h1>
+
+<h2>記載しているlinkタグ</h2>
+
+<pre>
+&lt;link rel="icon" sizes="192x192" href="icon.png"&gt;
+</pre>
+
+<img src="icon.png">
+icon.png
+
+</body>
+</html>
